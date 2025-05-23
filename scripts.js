@@ -1,8 +1,8 @@
 function sum() {
     let a, b, sum;
-    a = document.getElementById("a").value;
+    a = parseInt(document.getElementById("a").value);
     alert(a)
-    b = document.getElementById("b").value;
+    b = parseInt(document.getElementById("b").value);
     sum = a + b ;
     
     alert(sum)
